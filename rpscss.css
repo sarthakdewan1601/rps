@@ -1,0 +1,101 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #250642;
+}
+header{
+	background-color: #000000;
+	padding: 20px;
+}
+header h1{
+	text-align:center;
+	font-size:36px;
+	font-family: sans-serif;
+	color: #6F5991;
+}
+.score-board{
+	border:2px solid white;
+	width:200px;
+	color:white;
+	margin:20px auto;
+	font-size:36px;
+	border-radius:5px;
+	text-align: center;
+	font-family:sans-serif;
+	padding:10px 10px;
+	position: relative;
+}
+.badge{
+	background-color: #F07272;
+	font-size: 17px;
+	padding:2px 10px;
+}
+#user-label{
+	position:absolute;
+	top:20px;
+	left:-25px;
+}
+#comp-label{
+	position:absolute;
+	top:20px;
+	right:-30px;
+}
+.result{
+	color:white;
+	font-size:35px;
+	font-weight: bolder;
+}
+.result p{
+	text-align: center;
+	font-family: sans-serif;
+}
+.choice{
+	display: inline-block;
+	border: 5px solid black;
+	border-radius: 50%;
+    padding:10px;
+	margin: 0px 20px;
+	transition:all 1s ease;
+
+}
+.choice img{
+	height:140px;
+	width:150px;
+	border-radius: 50%;	
+	
+
+}
+.choices{
+	text-align: center;
+	margin:60px 0px;
+}
+.choice:hover{
+	cursor: pointer;
+	background-color: #06061F;
+}
+.action-message{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bolder;
+	color:#922020;
+	margin-top: 20px;
+}
+.green-glow{
+	border:4px solid #4dcc7d;
+	box-shadow: 0px 0px 10px #31b4ba;
+
+}
+.red-glow{
+	border:4px solid #fc121b;
+	box-shadow: 0px 0px 10px #d01115;
+
+}
+.gray-glow{
+	border:4px solid #464647;
+	box-shadow: 0px 0px 10px #25292b;
+
+}
